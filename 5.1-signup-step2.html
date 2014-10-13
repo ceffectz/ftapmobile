@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html class="full" lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
@@ -12,152 +11,146 @@
     <script src="specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
     
-
     <style type="text/css">
-      body{
-      font-family: 'open_sanslight';
-          }
+    body{
+    font-family: 'open_sanslight';
+    }
+    .glyphicon-exclamation-sign:before{
+    display:none;
+    }
+    .glyphicon-ok:before{
+    display:none;
+    }
     </style>
-  
-
+    
     <title>Ftap.com</title>
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/bootstrapValidator.css"/>
     
-
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrapValidator.js"></script>
     <!-- Custom CSS -->
     <link href="css/custom2.css" rel="stylesheet">
-
+    <style>
+    .glyphicon-exclamation-sign:before{
+    display:none;
+    }
+    .glyphicon-ok:before{
+    display:none;
+    }
+    </style>
     <!--<script type="text/javascript">
-        $(document).ready(function() {
-           
-         $("#test1").click(function () {
-          $('#country').addClass('shaded');
-            });
-          
-            $("#removeClass").click(function () {
-          $('#paragraph1').removeClass('shaded');
-            });
-          
-        });     
+    $(document).ready(function() {
+    
+    $("#test1").click(function () {
+    $('#country').addClass('shaded');
+    });
+    
+    $("#removeClass").click(function () {
+    $('#paragraph1').removeClass('shaded');
+    });
+    
+    });
     </script>-->
-
-<!--<script type="text/javascript">
-        $(document).ready(function() {
-           
-         $("#test1").click(function () {
-          $('.help-block').addClass('errormsg');
-            });
-          
-            $("#removeClass").click(function () {
-          $('#paragraph1').removeClass('shaded');
-            });
-          
-        });     
+    <!--<script type="text/javascript">
+    $(document).ready(function() {
+    
+    $("#test1").click(function () {
+    $('.help-block').addClass('errormsg');
+    });
+    
+    $("#removeClass").click(function () {
+    $('#paragraph1').removeClass('shaded');
+    });
+    
+    });
     </script>-->
-
-
-</head>
-
-<body>
-
+  </head>
+  <body>
     <!-- Navigation -->
-  
+    
     <!-- Page Content -->
-
     <div id="headerwrap" id="home" name="home">
-     <!-- <header class="clearfix">
-
+      <!-- <header class="clearfix">
         <img class="logo-css" src="img/logo.png" alt="">
-           
-        </header> -->
-
+        
+      </header> -->
       <div class="text-center">
-
         <!--<img class="vid-icon" src="img/video-icon.png" alt="">-->
         <img src="img/logo.png" class="snftaplogo" alt="Circular Image">
-          <h2 >Details</h2>
-            <p style=" margin-bottom: 31px;" class="singup-p1">To finish creating your account, enter some additional personal information below.</p>
-         <br>
-                
-        <div class="container">
+        <h2 >Details</h2>
+        <p style=" margin-bottom: 31px;" class="singup-p1">To finish creating your account, enter some additional personal information below.</p>
+        <br>
         
-         <form id="defaultForm" method="post" class="form-horizontal" action="ajaxSubmit.php">
-           
-           <div class="form-group">
-           
-              <div class="col-xs-12">
-                 <input type="text" class="form-control" id="address" name="address"
-                    placeholder="Address">
-              </div>
-           </div>
-           <div class="form-group">
-              <div class="col-xs-12">
-                 <input type="text" class="form-control" id="city" name="city"
-                    placeholder="City">
-              </div>
-           </div>
-           <div class="form-group">
-              <div class="col-xs-12">
-                 <input type="text" class="form-control" id="state" name="state"
-                    placeholder="State">
-              </div>
-           </div>
-           <div class="form-group">
-              <div class="col-xs-12">
-                 <input type="text" class="form-control" id="country" name="country" placeholder="Country">
-              </div>
-           </div>
-            <div class="form-group">
-              <div class="col-xs-12">
-                 <input type="text" class="form-control" id="Zip Code" name="zipCode"
-                    placeholder="Zip Code">
-              </div>
-           </div>
-            <div class="form-group">
-              <div class="col-xs-12">
-                 <input type="text" class="form-control" id="phone" name="phone"
-                    placeholder="Phone">
-              </div>
-           </div>
-          <div></div>
-           
-           <div class="form-group">
-              <div class="col-lg-12 submitbtn">
-                 <button type="submit" id="test1" class="btn btn-primary btn-lg btndisabled">Save and Continue</button>
-              </div>
-           </div>
+        <div class="container">
           
-        </form>
-        </div>
-
-
-
-
-      </div>
-
-      </div>
-
-    </div>
-
-    <div>
-     <!--<nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-           
-            <div class="container">
-                  <p class="p-text";><p class="p-text";>Getting Started ?<strong> Sign Up</strong></p>
-                  </p>
-            </div>-->
-                   
+          <form id="defaultForm" method="post" class="form-horizontal" action="ajaxSubmit.php">
             
-            <!--navbar-collapse -->
-      
-        <!-- container -->
-    <!--</nav>-->
+            <div class="form-group">
+              
+              <div class="col-xs-12">
+                <input type="text" class="form-control" id="address" name="address"
+                placeholder="Address">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input type="text" class="form-control" id="city" name="city"
+                placeholder="City">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input type="text" class="form-control" id="state" name="state"
+                placeholder="State">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input type="text" class="form-control" id="country" name="country" placeholder="Country">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input type="text" class="form-control" id="Zip Code" name="zipCode"
+                placeholder="Zip Code">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input type="text" class="form-control" id="phone" name="phone"
+                placeholder="Phone">
+              </div>
+            </div>
+            <div></div>
+            
+            <div class="form-group">
+              <div class="col-lg-12 submitbtn">
+                <button type="submit" id="test1" class="btn btn-primary btn-lg btndisabled">Save and Continue</button>
+              </div>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
+  <div>
+    <!--<nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      
+      <div class="container">
+        <p class="p-text";><p class="p-text";>Getting Started ?<strong> Sign Up</strong></p>
+        </p>
+      </div>-->
+      
+      
+      <!--navbar-collapse -->
+      
+      <!-- container -->
+      <!--</nav>-->
+    </div>
 
     <!-- /.container -->
 
@@ -165,6 +158,7 @@
 $(document).ready(function() {
     $('#defaultForm')
         .bootstrapValidator({
+           live: 'disabled',
             message: 'This value is not valid',
             feedbackIcons: {
                 valid: 'glyphicon glyphicon-ok',

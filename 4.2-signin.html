@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html class="full" lang="en">
-
-
-
-<head>
-
-
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
@@ -14,120 +9,111 @@
     <meta name="author" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script src="specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
-   
+    
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
-
     <style type="text/css">
-      body{
-      font-family: 'open_sanslight';
-          }
+    body{
+    font-family: 'open_sanslight';
+    }
     </style>
-  
-
-     <title>Ftap.com</title>
+    
+    <title>Ftap.com</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrapValidator.css"/>
     <!-- Custom CSS -->
     <link href="css/custom2.css" rel="stylesheet">
-
-     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrapValidator.js"></script>
-
-</head>
-
-<body>
-
+    <style>
+    .glyphicon-exclamation-sign:before{
+    display:none;
+    }
+    .glyphicon-ok:before{
+    display:none;
+    }
+    </style>
+  </head>
+  <body>
     <!-- Navigation -->
-  
+    
     <!-- Page Content -->
-
     <div id="headerwrap" id="home" name="home">
-     <!-- <header class="clearfix">
-
+      <!-- <header class="clearfix">
         <img class="logo-css" src="img/logo.png" alt="">
-           
-        </header> -->
-
+        
+      </header> -->
       <div class="text-center">
-
         <!--<img class="vid-icon" src="img/video-icon.png" alt="">-->
         <img src="img/logo.png" class="ftaplogo" alt="Circular Image">
-         
-         <br>
-                  
+        
+        <br>
+        
         <div class="container">
-      <form id="defaultForm" method="post" class="form-horizontal" action="ajaxSubmit.php">
-           
-           <div class="form-group">
-           
+          <form id="defaultForm" method="post" class="form-horizontal" action="ajaxSubmit.php">
+            
+            <div class="form-group">
+              
               <div class="col-xs-12">
-                 <input type="text" class="form-control" id="email" 
-                    placeholder="Email" name="email">
+                <input type="text" class="form-control" id="email"
+                placeholder="Email" name="email">
               </div>
-           </div>
-           <div class="form-group">
+            </div>
+            <div class="form-group">
               <div class="col-xs-12">
-                 <input type="password" class="form-control" id="password" 
-                    placeholder="Password" name="password" >
+                <input type="password" class="form-control" id="password"
+                placeholder="Password" name="password" >
               </div>
-           </div>
-          
-           <div class="form-group">
+            </div>
+            
+            <div class="form-group">
               <div class="col-lg-12 submitbtn">
-                 <button type="submit" class="btn btn-primary btn-lg">Sign In</button>
+                <button type="submit" class="btn btn-primary btn-lg">Sign In</button>
               </div>
-           </div>
+            </div>
             <div class="form-group">
               <div class="col-xs-6">
-                 <div class="checkbox checkboxcustom">
-                    <label>
-                       <input type="checkbox"> Remember me
-                        
-                    </label>
-                 </div>
+                <div class="checkbox checkboxcustom">
+                  <label>
+                    <input type="checkbox"> Remember me
+                    
+                  </label>
+                </div>
               </div>
-                <div class="col-xs-6">
-                 <div class="checkbox checkboxcustom">
-                    <label>
-                      <a href="">Forgot Password?</a>
-                        
-                      
-                    </label>
-                 </div>
+              <div class="col-xs-6">
+                <div class="checkbox checkboxcustom">
+                  <label>
+                    <a href="">Forgot Password?</a>
+                    
+                    
+                  </label>
+                </div>
               </div>
-           </div>
-        </form>
-        </div>
-
-
-
-
-      </div>
-
-      </div>
-
-    </div>
-
-    <div>
-     <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-           
-            <div class="container">
-                  <p class="p-text";><p class="p-text";>Getting Started ?<strong> Sign Up</strong></p>
-                  </p>
             </div>
-                   
-            
-            <!-- /.navbar-collapse -->
-        
-        <!-- /.container -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      
+      <div class="container">
+        <p class="p-text";><p class="p-text";>Getting Started ?<strong> Sign Up</strong></p>
+        </p>
+      </div>
+      
+      
+      <!-- /.navbar-collapse -->
+      
+      <!-- /.container -->
     </nav>
   </div>
-
 <script type="text/javascript">
 $(document).ready(function() {
     $('#defaultForm') .bootstrapValidator({
+       live: 'disabled',
       
             message: 'This value is not valid',
             feedbackIcons: {
